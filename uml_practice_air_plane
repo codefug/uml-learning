@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T11:46:22.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="HB5sEtPpuxp2XDuYLNgx" type="github"><diagram id="Z4_GCXz00fNWP7JkAhct">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-06T11:53:24.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="LFKtOusAKPGZX8n6Jr0q" type="github">
+  <diagram id="s-pv3SQDUaddkL5Jli_j" name="페이지-1">
+    <mxGraphModel dx="1597" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r6QVmdqPZerK3x-eufUK-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="1120" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-1" value="고객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-7" value="운임 납부" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-8" value="예약" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-9" value="이용 가능 인원 확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-10" value="항공사 선택" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-11" value="예약할 인원 입력" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-12" value="예약 확인서 다운" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-13" value="예약기능" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-14" value="카드 결제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-15" value="항공기 운항 노선 선택" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="205" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-16" value="계좌이체" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r6QVmdqPZerK3x-eufUK-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="250" as="sourcePoint" />
+            <mxPoint x="730" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-21" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="250" as="sourcePoint" />
+            <mxPoint x="730" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="250" as="sourcePoint" />
+            <mxPoint x="730" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6QVmdqPZerK3x-eufUK-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="r6QVmdqPZerK3x-eufUK-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="250" as="sourcePoint" />
+            <mxPoint x="720" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
