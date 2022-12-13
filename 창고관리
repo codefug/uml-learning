@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T12:29:07.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="DnEOtbinSiI88EcUBrg3" type="github"><diagram id="nRjahnaWc2XS8AXF18Cx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-13T12:45:22.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="sTNfpu9uyDv2Nz1pO8jB" type="github">
+  <diagram id="PVcv0EcmIROfSZsZe-xB" name="페이지-1">
+    <mxGraphModel dx="727" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qWljgblbZHCShw7v82KY-1" value="입고" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="qWljgblbZHCShw7v82KY-2" parent="1" target="qWljgblbZHCShw7v82KY-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-5" value="출고" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-10" value="재고 현황" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-13" value="물건" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-16" value="입고 요청" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qWljgblbZHCShw7v82KY-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="340" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-18" value="출고 요청" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qWljgblbZHCShw7v82KY-5">
+          <mxGeometry x="-0.2632" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-21" value="추가" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-22" value="등록된 물건" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qWljgblbZHCShw7v82KY-1" target="qWljgblbZHCShw7v82KY-21">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-24" value="물건명 , 코드, 기타 정보와 입고량 등록" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.665;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qWljgblbZHCShw7v82KY-1" target="qWljgblbZHCShw7v82KY-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-25" value="요청 물건 확인" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.328;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.835;entryY=-0.07;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qWljgblbZHCShw7v82KY-5" target="qWljgblbZHCShw7v82KY-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="560" as="sourcePoint" />
+            <mxPoint x="590" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qWljgblbZHCShw7v82KY-26" value="요청 물건이 있다." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qWljgblbZHCShw7v82KY-10" target="qWljgblbZHCShw7v82KY-5">
+          <mxGeometry x="-0.2721" width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="680" as="sourcePoint" />
+            <mxPoint x="520" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="600" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
